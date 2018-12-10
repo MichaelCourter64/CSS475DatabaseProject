@@ -1,0 +1,9 @@
+C:\Users\courterm\source\repos\TestApp\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\courterm\source\repos\TestApp\TestApp\bin\Debug\TestApp.exe
+C:\Users\courterm\source\repos\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.exe
+C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.pdb
