@@ -7,3 +7,16 @@ C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.Generate
 C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
 C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.exe
 C:\Users\courterm\source\repos\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\TestApp.exe
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\TestApp.pdb
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.csprojAssemblyReference.cache
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.Properties.Resources.resources
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.csproj.GenerateResource.cache
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.csproj.CoreCompileInputs.cache
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.exe
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.pdb
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\MySql.Data.dll
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\Google.Protobuf.dll
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\bin\Debug\MySql.Data.xml
+C:\Users\Michael Courter\Documents\school\2018-2019\Fall\CSS475\CSS475DatabaseProject\TestApp\TestApp\obj\Debug\TestApp.csproj.CopyComplete

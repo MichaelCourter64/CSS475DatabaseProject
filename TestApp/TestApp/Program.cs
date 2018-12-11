@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using MySql.Data;
+using MySql.Data.MySqlClient;
 
 namespace TestApp
 {
@@ -17,8 +19,9 @@ namespace TestApp
         {
             //SqlConnection sqlConnection = new SqlConnection("User ID=mAsterAcc;Password=fescdwax;Data Source=css475mariadbbasedgamelibrary.cuk3vrnaztl4.us-west-2.rds.amazonaws.com;" +
                 //"Integrated Security=false;Initial Catalog=Vapor;connection timeout=10");
-
-            SqlConnection sqlConnection = new SqlConnection("Server = css475mariadbbasedgamelibrary.cuk3vrnaztl4.us-west-2.rds.amazonaws.com; Database = Vapor; Uid = mAsterAcc; Pwd = fescdwax;");
+                
+            MySqlConnection sqlConnection = new MySqlConnection("Server=css475mariadbbasedgamelibrary.cuk3vrnaztl4.us-west-2.rds.amazonaws.com;" +
+                " Database=Vapor; user=mAsterAcc; Password=fescdwax;");
 
             try
             {
@@ -27,6 +30,15 @@ namespace TestApp
             catch (Exception e)
             {
                 Console.WriteLine(e.ToString());
+            }
+
+            string sql = "SELECT UName FROM USER";
+            MySqlCommand cmd = new MySqlCommand(sql, sqlConnection);
+            MySqlDataReader rdr = cmd.ExecuteReader();
+
+            while (rdr.Read())
+            {
+                Console.WriteLine(rdr[0]);
             }
 
             try
