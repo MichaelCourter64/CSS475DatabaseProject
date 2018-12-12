@@ -22,8 +22,10 @@ namespace TestApp
 
         private void GetPlayerGames_Click(object sender, EventArgs e)
         {
+            GameList.Text = "";
+
             // Run method to query games of user.
-            string[] games = Queries.GetPlayerGames(UsersNameTextField.Text);
+            Queue<string> games = Queries.GetPlayerGames(UsersNameTextField.Text);
              
             foreach(string game in games)
             {
