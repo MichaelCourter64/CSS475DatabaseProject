@@ -1,4 +1,4 @@
-namespace TestApp
+namespace VaporClient
 {
     partial class PlayerGames
     {
