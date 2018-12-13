@@ -22,6 +22,9 @@ namespace VaporClient
 
         private void PlayerGames_Load(object sender, EventArgs e)
         {
+            // For some reason if you add a game to ownership then open
+            //     the ownership window too soon then it won't return any
+            //     games
             GameList.Text = "";
 
             // Run method to query games of user.
@@ -32,6 +35,7 @@ namespace VaporClient
                 string justNameAndDate = game.Remove(game.Length - 12);
                 GameList.Items.Add(justNameAndDate);
             }
+            
         }
 
         private void RemoveGameButton_Click(object sender, EventArgs e)
