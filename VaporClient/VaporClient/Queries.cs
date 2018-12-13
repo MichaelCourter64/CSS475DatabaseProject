@@ -48,14 +48,11 @@ namespace VaporClient
             const int RDATE = 1;
             string[] gameKeys = gameToAdd.Split(',');
 
-            Convert.ToDateTime(gameKeys[RDATE]).ToString("yyyy-MM-dd")
-            //string[] piecesOfDate = gameKeys[RDATE].Split('/');
-            //gameKeys[RDATE] = piecesOfDate[2] + "-" + piecesOfDate[1] + "-" + piecesOfDate[0];
+            gameKeys[RDATE] = Convert.ToDateTime(gameKeys[RDATE]).ToString("yyyy-MM-dd");
 
             MySqlConnection sqlConnection = OpenConnection();
 
-            string sql = "INSERT INTO GAME_OWNERSHIP (U_Name, G_Name, R_Date) " +
-                "VALUES ('" + username + "', '" + gameKeys[GNAME] + "', '" + gameKeys[RDATE] + "');";
+            string sql = "INSERT INTO GAME_OWNERSHIP(G_Name, R_Date, U_Name) VALUES ('" + gameKeys[GNAME] + "', '" + gameKeys[RDATE] + "', '" + username + "');";
 
             MySqlCommand cmd = new MySqlCommand(sql, sqlConnection);
             cmd.BeginExecuteNonQuery();
@@ -69,8 +66,7 @@ namespace VaporClient
             const int RDATE = 1;
             string[] gameKeys = gameToRemove.Split(',');
 
-            string[] piecesOfDate = gameKeys[RDATE].Split('/');
-            gameKeys[RDATE] = piecesOfDate[2] + "-" + piecesOfDate[1] + "-" + piecesOfDate[0];
+            gameKeys[RDATE] = Convert.ToDateTime(gameKeys[RDATE]).ToString("yyyy-MM-dd");
 
             MySqlConnection sqlConnection = OpenConnection();
 
