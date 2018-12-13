@@ -37,6 +37,7 @@
             this.FriendsListTextBox.Location = new System.Drawing.Point(12, 12);
             this.FriendsListTextBox.Multiline = true;
             this.FriendsListTextBox.Name = "FriendsListTextBox";
+            this.FriendsListTextBox.ReadOnly = true;
             this.FriendsListTextBox.Size = new System.Drawing.Size(485, 212);
             this.FriendsListTextBox.TabIndex = 0;
             this.FriendsListTextBox.TabStop = false;

@@ -29,8 +29,17 @@ namespace VaporClient
 
             foreach (string game in games)
             {
-                GameList.Text += game + System.Environment.NewLine;
+                string justNameAndDate = game.Remove(game.Length - 12);
+                GameList.Items.Add(justNameAndDate);
             }
+        }
+
+        private void RemoveGameButton_Click(object sender, EventArgs e)
+        {
+            object gameToRemove = GameList.SelectedItem;
+            Queries.RemoveGameFromOwnership(UserInfo.CurrentUsername, gameToRemove.ToString());
+
+            GameList.Items.Remove(gameToRemove);
         }
     }
 }

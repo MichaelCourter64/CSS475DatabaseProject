@@ -52,6 +52,12 @@
     <Compile Include="FriendsList.Designer.cs">
       <DependentUpon>FriendsList.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameStore.Designer.cs">
+      <DependentUpon>GameStore.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,9 @@
     <Compile Include="UserInfo.cs" />
     <EmbeddedResource Include="FriendsList.resx">
       <DependentUpon>FriendsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameStore.resx">
+      <DependentUpon>GameStore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>

@@ -26,5 +26,10 @@ namespace VaporClient
         {
             new FriendsList().Show();
         }
+
+        private void GameStoreButton_Click(object sender, EventArgs e)
+        {
+            new GameStore().Show();
+        }
     }
 }
