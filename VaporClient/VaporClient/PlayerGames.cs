@@ -20,22 +20,17 @@ namespace VaporClient
             InitializeComponent();
         }
 
-        private void GetPlayerGames_Click(object sender, EventArgs e)
+        private void PlayerGames_Load(object sender, EventArgs e)
         {
             GameList.Text = "";
 
             // Run method to query games of user.
-            Queue<string> games = Queries.GetPlayerGames(UsersNameTextField.Text);
-             
-            foreach(string game in games)
+            Queue<string> games = Queries.GetPlayerGames(UserInfo.CurrentUsername);
+
+            foreach (string game in games)
             {
                 GameList.Text += game + System.Environment.NewLine;
             }
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
